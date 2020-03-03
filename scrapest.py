@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import database_connection
 
+
 def scrape():
     option = webdriver.ChromeOptions()
     option.add_argument("-incognito")
@@ -16,7 +17,8 @@ def scrape():
     timeout = 20
 
     try:
-        WebDriverWait(browser, timeout).until(EC.visibility_of_element_located((By.XPATH, "//div[@class='definitionBoxTop']")))
+        WebDriverWait(browser, timeout).until(
+            EC.visibility_of_element_located((By.XPATH, "//div[@class='definitionBoxTop']")))
     except TimeoutException:
         print("timed out")
         browser.quit()
@@ -27,9 +29,10 @@ def scrape():
     boej = [x.text for x in boejninger]
     text = [x.text for x in text_elements]
 
-    print("text")
-    print(text, "\n", " ", boej)
+    print(text, "\n", boej)
+
 
 if __name__ == '__main__':
-    scrape()
-    database_connection.DatabaseConnection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
+    #scrape()
+    database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
+    database_connection.main()
