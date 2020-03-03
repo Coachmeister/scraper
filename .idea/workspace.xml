@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="302bd614-49f4-4017-9455-378848b7e6da" name="Default Changelist" comment="" />
+    <list default="true" id="302bd614-49f4-4017-9455-378848b7e6da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/database_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapest.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y4LPHPZkxPWqPwwSfEBK9eSshE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,10 +45,33 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.scrapest">
+    <configuration name="database_connection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database_connection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scrapest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +97,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.scrapest" />
+        <item itemvalue="Python.database_connection" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +113,7 @@
       <updated>1582196893864</updated>
       <workItem from="1582196895614" duration="8723000" />
       <workItem from="1582787659682" duration="4632000" />
+      <workItem from="1583234482045" duration="1610000" />
     </task>
     <servers />
   </component>
@@ -91,10 +125,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="182" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1582794704385" />
-    <state x="1032" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582794662944">
+    <state x="934" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583235948999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582794662944" />
+    <state x="934" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583235948999" />
     <state x="1186" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582793372620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -103,28 +137,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582297465726" />
-    <state width="914" height="280" key="GridCell.Tab.0.bottom" timestamp="1582895145727">
+    <state width="914" height="265" key="GridCell.Tab.0.bottom" timestamp="1583235232951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582895145727" />
-    <state width="914" height="280" key="GridCell.Tab.0.center" timestamp="1582895145727">
+    <state width="914" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583235232951" />
+    <state width="914" height="265" key="GridCell.Tab.0.center" timestamp="1583235232951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582895145727" />
-    <state width="914" height="280" key="GridCell.Tab.0.left" timestamp="1582895145727">
+    <state width="914" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583235232951" />
+    <state width="914" height="265" key="GridCell.Tab.0.left" timestamp="1583235232951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582895145727" />
-    <state width="914" height="280" key="GridCell.Tab.0.right" timestamp="1582895145727">
+    <state width="914" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583235232951" />
+    <state width="914" height="265" key="GridCell.Tab.0.right" timestamp="1583235232951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582895145727" />
+    <state width="914" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583235232951" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1582794159843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582794159843" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/scraper$scrapest.coverage" NAME="scrapest Coverage Results" MODIFIED="1582793297073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scraper$database_connection.coverage" NAME="database_connection Coverage Results" MODIFIED="1583235012317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scraper$scrapest.coverage" NAME="scrapest Coverage Results" MODIFIED="1583235232915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
