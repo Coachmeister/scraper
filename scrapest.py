@@ -3,7 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-import database_connection
+#import database_connection
+#import elephantsql
 
 
 def scrape():
@@ -12,7 +13,7 @@ def scrape():
 
     browser = webdriver.Chrome(executable_path="C:/Development/python/chromedriver.exe", options=option)
 
-    browser.get("https://ordnet.dk/ddo/ordbog?query=data")
+    browser.get("https://ordnet.dk/ddo/ordbog?aselect=0&query=1&first_id=103542&last_id=103582")
 
     timeout = 20
 
@@ -32,7 +33,9 @@ def scrape():
     print(text, "\n", boej)
 
 
+
 if __name__ == '__main__':
-    #scrape()
-    database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
-    database_connection.main()
+    scrape()
+    #elephantsql.dbconnect()
+   # database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
+   # database_connection.main()
