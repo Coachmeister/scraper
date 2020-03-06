@@ -3,14 +3,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-import database_connection
+
 
 
 def scrape():
     option = webdriver.ChromeOptions()
     option.add_argument("-incognito")
 
-    browser = webdriver.Chrome(executable_path="C:/Development/python/chromedriver.exe", options=option)
+    browser = webdriver.Chrome(executable_path="F:\Development\scraper\chromedriver.exe", options=option)
 
     browser.get("https://ordnet.dk/ddo/ordbog?query=data")
 
@@ -26,13 +26,16 @@ def scrape():
     text_elements = browser.find_elements_by_xpath("//div[@class='definitionBoxTop']")
     boejninger = browser.find_elements_by_xpath("//div[@id='id-boj']")
 
+    clicker = browser.find_elements_by_class_name("searchResultBox")
+    click = [x.text for x in clicker]
+
     boej = [x.text for x in boejninger]
     text = [x.text for x in text_elements]
 
-    print(text, "\n", boej)
+    print(text, "\n", boej, "\n", click)
 
 
 if __name__ == '__main__':
-    #scrape()
-    database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
-    database_connection.main()
+    scrape()
+    #database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
+    #database_connection.main()
