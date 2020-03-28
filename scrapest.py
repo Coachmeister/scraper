@@ -3,12 +3,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-<<<<<<< HEAD
 #import database_connection
 #import elephantsql
-=======
 
->>>>>>> 5ab6d126452c25da04400b932ecc738d22908f4a
+
 
 
 def scrape():
@@ -43,11 +41,11 @@ def scrape():
 
 if __name__ == '__main__':
     scrape()
-<<<<<<< HEAD
+
     #elephantsql.dbconnect()
    # database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
    # database_connection.main()
-=======
+
     #database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
     #database_connection.main()
->>>>>>> 5ab6d126452c25da04400b932ecc738d22908f4a
+

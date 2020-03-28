@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="302bd614-49f4-4017-9455-378848b7e6da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scripts/flask.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbOPN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elephantsql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-3.8-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install-3.8.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/easy_install.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elephantsql.py" beforeDir="false" afterPath="$PROJECT_DIR$/elephantsql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scrapest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrapest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +46,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python_finance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.scrapest">
+  <component name="RunManager" selected="Python.elephantsql">
     <configuration name="database_connection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="scraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scrapest" />
         <item itemvalue="Python.elephantsql" />
+        <item itemvalue="Python.scrapest" />
         <item itemvalue="Python.database_connection" />
       </list>
     </recent_temporary>
@@ -147,6 +141,8 @@
       <workItem from="1582196895614" duration="8723000" />
       <workItem from="1582787659682" duration="4632000" />
       <workItem from="1583234482045" duration="20618000" />
+      <workItem from="1585408361443" duration="1366000" />
+      <workItem from="1585422921204" duration="32000" />
     </task>
     <servers />
   </component>
@@ -161,9 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="182" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1582794704385" />
-    <state x="77" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583237856364">
+    <state x="843" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585422952697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="843" y="228" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585422952697" />
     <state x="77" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583237856364" />
     <state x="1186" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582793372620">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -173,21 +170,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583397246356" />
-    <state width="1877" height="267" key="GridCell.Tab.0.bottom" timestamp="1583397247841">
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom" timestamp="1585409728001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="241" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585409728001" />
     <state width="1877" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583397247841" />
-    <state width="1877" height="267" key="GridCell.Tab.0.center" timestamp="1583397247841">
+    <state width="1877" height="241" key="GridCell.Tab.0.center" timestamp="1585409728000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="241" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585409728000" />
     <state width="1877" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583397247841" />
-    <state width="1877" height="267" key="GridCell.Tab.0.left" timestamp="1583397247841">
+    <state width="1877" height="241" key="GridCell.Tab.0.left" timestamp="1585409728000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="241" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585409728000" />
     <state width="1877" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583397247841" />
-    <state width="1877" height="267" key="GridCell.Tab.0.right" timestamp="1583397247841">
+    <state width="1877" height="241" key="GridCell.Tab.0.right" timestamp="1585409728001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="241" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585409728001" />
     <state width="1877" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583397247841" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583306586348">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -195,8 +196,8 @@
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583306586348" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/scraper$elephantsql.coverage" NAME="elephantsql Coverage Results" MODIFIED="1583252811651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scraper$database_connection.coverage" NAME="database_connection Coverage Results" MODIFIED="1583235012317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/scraper$scrapest.coverage" NAME="scrapest Coverage Results" MODIFIED="1583314551835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/scraper$elephantsql.coverage" NAME="elephantsql Coverage Results" MODIFIED="1585409568967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
