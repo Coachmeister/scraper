@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+import pandas as pd
 #import database_connection
 #import elephantsql
 
@@ -13,9 +14,9 @@ def scrape():
     option = webdriver.ChromeOptions()
     option.add_argument("-incognito")
 
-    browser = webdriver.Chrome(executable_path="F:\Development\scraper\chromedriver.exe", options=option)
+    browser = webdriver.Chrome(executable_path="C:\Development\scraper\chromedriver.exe", options=option)
 
-    browser.get("https://ordnet.dk/ddo/ordbog?aselect=0&query=1&first_id=103542&last_id=103582")
+    browser.get("https://ordnet.dk/ddo/ordbog?aselect=%C3%A5rv%C3%A5gen&query=0")
 
     timeout = 20
 
@@ -31,21 +32,27 @@ def scrape():
 
     clicker = browser.find_elements_by_class_name("searchResultBox")
     click = [x.text for x in clicker]
-
     boej = [x.text for x in boejninger]
     text = [x.text for x in text_elements]
 
-    print(text, "\n", boej, "\n", click)
+    for clicks in click:
+        print(clicks.trim())
 
 
+
+
+
+
+  #  print(click, "\n")
+
+  #  df = pd.DataFrame({"betydning": [text], "bøjninger": [boej]})
+   # df.to_csv("test1")
+   # print(df)
 
 if __name__ == '__main__':
     scrape()
 
-    #elephantsql.dbconnect()
-   # database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
-   # database_connection.main()
 
-    #database_connection.create_connection(r"C:\Development\python\scraper\scraperdata.db")
-    #database_connection.main()
+
+
 
